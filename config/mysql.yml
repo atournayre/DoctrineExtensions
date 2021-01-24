@@ -3,6 +3,7 @@ doctrine:
          dql:
              datetime_functions:
                  addtime: DoctrineExtensions\Query\Mysql\AddTime
+                 coalesce_date: DoctrineExtensions\Query\Mysql\CoalesceDate
                  convert_tz: DoctrineExtensions\Query\Mysql\ConvertTz
                  date: DoctrineExtensions\Query\Mysql\Date
                  date_format: DoctrineExtensions\Query\Mysql\DateFormat
